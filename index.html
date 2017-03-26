@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+  
+  <title>Mr.Lin</title>
+
+  
+  <meta name="author" content="Mr.Lin">
+  
+
+  
+
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  
+
+  <meta property="og:site_name" content="Mr.Lin"/>
+
+  
+  <meta property="og:image" content="/favicon.ico"/>
+  
+
+  <link href="/favicon.ico" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="Mr.Lin" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</head>
+
+
+<body>
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="/">Mr.Lin</a>
+    </h1>
+    <p class="site-description"></p>
+  </div>
+  <!--
+  <nav class="site-navigation">
+    <ul>
+      
+        <li><a href="/">主页</a></li>
+      
+        <li><a href="/archives">归档</a></li>
+      
+        <li><a href="/tags">标签</a></li>
+      
+    </ul>
+  </nav>
+  -->
+</header>
+
+    <main class="site-main posts-loop">
+    
+  <article>
+
+  
+    
+    <h3 class="article-title"><a href="/2017/03/06/习题6-4/"><span>习题6-4</span></a></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/2017/03/06/习题6-4/" rel="bookmark">
+        <time class="entry-date published" datetime="2017-03-06T12:58:20.000Z">
+          2017-03-06
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <h2 id="一、"><a href="#一、" class="headerlink" title="一、"></a>一、</h2><h3 id="1-求下列各函数的全微分："><a href="#1-求下列各函数的全微分：" class="headerlink" title="1. 求下列各函数的全微分："></a>1. 求下列各函数的全微分：</h3><p>(1) $z=x^{3}+y^{3}-3xy$<br><span>$$\begin{align*}
+dz &amp;= \frac{\partial z}{\partial x}dx + \frac{\partial z}{\partial y}dy \\
+&amp;=(3x^{2}-3y)dx+(3y^{2}-3x)dy
+\end{align*}$$</span><!-- Has MathJax --></p>
+<p>(2) $z=x^{2}y^{3}$<br><span>$$\begin{align*}
+dz &amp;= \frac{\partial z}{\partial x}dx + \frac{\partial z}{\partial y}dy \\
+&amp;=2xy^{3}dx+3x^{2}y^{2}dy
+\end{align*}$$</span><!-- Has MathJax --></p>
+<p>(3) $z=\frac{x^2-y^{2}}{x^{2}+y^{2}}$<br><span>$$\begin{align*}
+dz &amp;= \frac{\partial z}{\partial x}dx + \frac{\partial z}{\partial y}dy \\
+&amp;=\frac{4xy^{2}}{(x^{2}+y^{2})^{2}}dx-\frac{4x^{2}y}{(x^{2}+y^{2})^{2}}dy
+\end{align*}$$</span><!-- Has MathJax --><br><strong>注意：$z=\frac{x^{2}-y^{2}}{x^{2}+y^{2}}=1-2\frac{y^{2}}{x^{2}+y^2}=-1+2\frac{x^{2}}{x^{2}+y^{2}}$</strong></p>
+<p>(4) $z=sin^{2}x+cos^{2}y$<br><span>$$\begin{align*}
+dz &amp;= \frac{\partial z}{\partial x}dx + \frac{\partial z}{\partial y}dy \\
+&amp;=2sinxcosxdx+2cosy(-siny)dy\\
+&amp;=sin2x dx - sin2y dy
+\end{align*}$$</span><!-- Has MathJax --></p>
+<p>(5) $z=yx^{y}$<br><span>$$\begin{align*}
+dz &amp;= \frac{\partial z}{\partial x}dx + \frac{\partial z}{\partial y}dy \\
+&amp;=yyx^{y-1}dx+(x^{y}+yx^{y}lnx)dy\\
+&amp;=y^{2}x^{y-1}dx+(1+ylnx)x^{y}dy
+\end{align*}$$</span><!-- Has MathJax --><br><strong>注意：对$x$还是对$y$求偏导数</strong></p>
+<p>(6) $z=ln(x^{2}+y^{2})$<br><span>$$\begin{align*}
+dz &amp;= \frac{\partial z}{\partial x}dx + \frac{\partial z}{\partial y}dy \\
+&amp;=\frac{2x}{x^{2}+y^{2}}dx+\frac{2y}{x^{2}+y^{2}}dy
+\end{align*}$$</span><!-- Has MathJax --></p>
+<h3 id="2-求函数-z-frac-y-x-在-x-2-y-1-Delta-x-0-1-Delta-y-0-2-时的全增量-Delta-z-和全微分-dz"><a href="#2-求函数-z-frac-y-x-在-x-2-y-1-Delta-x-0-1-Delta-y-0-2-时的全增量-Delta-z-和全微分-dz" class="headerlink" title="2. 求函数$z=\frac{y}{x}$在$x=2$,$y=1$,$\Delta x=0.1$,$\Delta y=-0.2$时的全增量$\Delta z$和全微分$dz$"></a>2. 求函数$z=\frac{y}{x}$在$x=2$,$y=1$,$\Delta x=0.1$,$\Delta y=-0.2$时的全增量$\Delta z$和全微分$dz$</h3><span>$$\begin{align*}
+\Delta z &amp;= f(x+\Delta x,y+\Delta y)-f(x,y)\\
+&amp;= f(2.1,0.8)-f(2,1)\\
+&amp;= \frac{0.8}{2.1}-\frac{1}{2}\\
+&amp;= -\frac{5}{42}\\
+
+dz &amp;= \frac{\partial z}{\partial x}dx + \frac{\partial z}{\partial y}dy \\
+&amp;=-\frac{y}{x^{2}}dx+\frac{1}{x}dy
+\end{align*}$$</span><!-- Has MathJax -->
+<p>故$dz|_{(2,1)}=-\frac{1}{4}dx+\frac{1}{2}dy=-\frac{1}{4}\cdot 0.1+\frac{1}{2}\cdot (-0.2)=-0.125$</p>
+<h3 id="3-求函数-z-ln-2-x-2-y-2-在-x-2-y-1-时的全微分"><a href="#3-求函数-z-ln-2-x-2-y-2-在-x-2-y-1-时的全微分" class="headerlink" title="3. 求函数$z=ln(2+x^{2}+y^{2})$在$x=2$,$y=1$时的全微分"></a>3. 求函数$z=ln(2+x^{2}+y^{2})$在$x=2$,$y=1$时的全微分</h3><span>$$\begin{align*}
+dz &amp;= \frac{\partial z}{\partial x}dx + \frac{\partial z}{\partial y}dy \\
+&amp;=\frac{2x}{2+x^{2}+y^{2}}dx+\frac{2y}{2+x^{2}+y^{2}}dy
+\end{align*}$$</span><!-- Has MathJax -->
+<p>故$dz|_{(2,1)}=\frac{4}{7}dx+\frac{2}{7}dy$</p>
+<h3 id="4-求下列各函数的全微分："><a href="#4-求下列各函数的全微分：" class="headerlink" title="4. 求下列各函数的全微分："></a>4. 求下列各函数的全微分：</h3><p>(1) $u=\sqrt{x^{2}+y^{2}+z^{2}}$<br><span>$$\begin{align*}
+du &amp;= \frac{\partial u}{\partial x}dx + \frac{\partial u}{\partial y}dy + \frac{\partial u}{\partial z}dz\\
+&amp;=\frac{x}{\sqrt{x^{2}+y^{2}+z^{2}}}dx+\frac{y}{\sqrt{x^{2}+y^{2}+z^{2}}}dy+\frac{z}{\sqrt{x^{2}+y^{2}+z^{2}}}dz
+\end{align*}$$</span><!-- Has MathJax --></p>
+<p>(2) $u=e^{x+yz}$<br><span>$$\begin{align*}
+du &amp;= \frac{\partial u}{\partial x}dx + \frac{\partial u}{\partial y}dy + \frac{\partial u}{\partial z}dz\\
+&amp;=e^{x+yz}dx+ze^{x+yz}dy+ye^{x+yz}dz
+\end{align*}$$</span><!-- Has MathJax --></p>
+<h2 id="二、"><a href="#二、" class="headerlink" title="二、"></a>二、</h2><h3 id="1-z-arctan-frac-x-1-y-2-dz-1-1"><a href="#1-z-arctan-frac-x-1-y-2-dz-1-1" class="headerlink" title="1. $z=arctan\frac{x}{1+y^{2}}$, $dz|_{(1,1)}$"></a>1. $z=arctan\frac{x}{1+y^{2}}$, $dz|_{(1,1)}$</h3><span>$$\begin{align*}
+dz &amp;= \frac{\partial z}{\partial x}dx + \frac{\partial z}{\partial y}dy \\
+&amp;=\frac{1}{1+(\frac{x}{1+y^{2}})^{2}}\frac{1}{1+y^{2}}dx+\frac{1}{1+(\frac{x}{1+y^{2}})^{2}}\frac{x(-2y)}{(1+y^{2})^{2}}dy\\
+&amp;=\frac{1+y^{2}}{(1+y^{2})^{2}+x^{2}}dx-\frac{2xy}{(1+y^{2})^{2}+x^{2}}dy
+\end{align*}$$</span><!-- Has MathJax -->
+<p>故$dz|_{(1,1)}=\frac{2}{5}dx-\frac{2}{5}dy$</p>
+<h3 id="2-u-frac-z-sqrt-x-2-y-2-du-3-4-5"><a href="#2-u-frac-z-sqrt-x-2-y-2-du-3-4-5" class="headerlink" title="2. $u=\frac{z}{\sqrt{x^{2}+y^{2}}}$, $du|_{(3,4,5)}$"></a>2. $u=\frac{z}{\sqrt{x^{2}+y^{2}}}$, $du|_{(3,4,5)}$</h3><span>$$\begin{align*}
+du &amp;= \frac{\partial u}{\partial x}dx + \frac{\partial u}{\partial y}dy + \frac{\partial u}{\partial z}dz \\
+&amp;=z\frac{-x}{(x^{2}+y^{2})^{\frac{3}{2}}}dx+z\frac{-y}{(x^{2}+y^{2})^{\frac{3}{2}}}dxdy+\frac{1}{\sqrt{x^{2}+y^{2}}}dz
+\end{align*}$$</span><!-- Has MathJax -->
+<p>故$du|_{(3,4,5)}=-\frac{3}{25}dx-\frac{4}{25}dy+\frac{1}{5}dz$</p>
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+      
+
+    <span class="post-categories">
+      <i class="icon-categories"></i>
+        <a href="/categories/3B/">3B</a>
+    </span>
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/全微分/">全微分</a>
+    </span>
+    
+
+    </div>
+
+    
+    <div class="article-meta pull-right">
+      <span>
+        <i class="icon-comments"></i>
+        <span>
+          <a href="/2017/03/06/习题6-4/#comment">评论</a>
+        </span>
+      </span>
+    </div>
+    
+  </div>
+</article>
+
+
+
+
+<nav class="pagination">
+  
+  
+</nav>
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+  <!--
+    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    </br>
+  -->
+    
+    &copy; 2017 Mr.Lin
+    
+  </p>
+</footer>
+  </div>
+</div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({"tex2jax":{"inlineMath":[["$","$"],["\\(","\\)"]],"skipTags":["script","noscript","style","textarea","pre","code"],"processEscapes":true},"TeX":{"equationNumbers":{"autoNumber":"AMS"}}});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+
+</body>
+</html>
